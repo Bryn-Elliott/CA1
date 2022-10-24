@@ -8,8 +8,14 @@ public class BattleShip extends AbstractBattleShip
         name = shipName;
         Random rnd = new Random();
         int shipOrientationINT = rnd.nextInt(2);
-        shipOrientation = String.valueOf(shipOrientationINT);
-        //0 = vertical, 1 = horizontal.
+        if (shipOrientationINT == 0)
+        {
+            shipOrientation = "vertical";
+        }
+        else
+        {
+            shipOrientation = "horizontal";
+        }
         System.out.println(name);
     }
 

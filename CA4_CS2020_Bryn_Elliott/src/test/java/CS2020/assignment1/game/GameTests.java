@@ -56,7 +56,7 @@ public class GameTests {
 	    }	
 		
 	}
-	/*
+	
 	@Test
 	public void t1_1_b() {
 		int horizontal = 0;
@@ -80,7 +80,7 @@ public class GameTests {
         }
 	}
 	
-
+	/*
 	@Test
 	public void t1_2() {
 		try {
