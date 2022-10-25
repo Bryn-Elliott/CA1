@@ -80,7 +80,7 @@ public class GameTests {
         }
 	}
 	
-	/*
+	
 	@Test
 	public void t1_2() {
 		try {
@@ -493,12 +493,12 @@ public class GameTests {
 				        }
 					
 			        assertTrue (count2>0);
-			        
+
 			        assertTrue (output.contains("HIT Ship 1!!!"));
 			        
 			       
 			        
-			        // we only have one ship and it can't have this shape so there has to be at least one miss
+			        //we only have one ship and it can't have this shape so there has to be at least one miss
 			        game.playRound("0,0");
 			        game.playRound("0,1");
 			        outContent.reset();
@@ -536,5 +536,5 @@ public class GameTests {
 			    }	
 		
 	}
-*/
+
 }
