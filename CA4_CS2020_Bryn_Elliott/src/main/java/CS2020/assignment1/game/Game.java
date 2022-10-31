@@ -34,7 +34,7 @@ public class Game implements GameControls
             for(int i = 0; i < opponentsGrid.ships.length; i++)
             {
                 coords = opponentsGrid.ships[i].getShipCoordinates();
-                for(int l = 0; i < 3; i++)
+                for(int l = 0; l < 3; l++)
                 {
                     if (x == coords[0][l])
                     {
@@ -66,7 +66,7 @@ public class Game implements GameControls
             for(int i = 0; i < playersGrid.ships.length; i++)
             {
                 coords = playersGrid.ships[i].getShipCoordinates();
-                for(int l = 0; i < 3; i++)
+                for(int l = 0; l < 3; l++)
                 {
                     if (x == coords[0][l])
                     {
